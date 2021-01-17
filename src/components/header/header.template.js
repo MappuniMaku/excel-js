@@ -5,14 +5,14 @@ export function createHeader(state) {
         <input type="text" class="input" value="${state.title || defaultTitle}" />
 
         <div>
-            <div class="button">
-                <i class="material-icons">
+            <div class="button" data-button="remove">
+                <i class="material-icons" data-button="remove">
                     delete
                 </i>
             </div>
 
-            <div class="button">
-                <i class="material-icons">
+            <div class="button" data-button="exit">
+                <i class="material-icons" data-button="exit">
                     exit_to_app
                 </i>
             </div>
